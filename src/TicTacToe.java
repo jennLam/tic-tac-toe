@@ -20,7 +20,7 @@ public class TicTacToe {
 			try {
 				menuInput = readInput.nextInt();
 				
-				if (this.seen.contains(menuInput)) {
+				if (seen.contains(menuInput)) {
 					System.out.print("That cell has already been marked. Please re-enter: ");
 					continue;
 					
